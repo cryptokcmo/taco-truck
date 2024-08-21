@@ -1,0 +1,69 @@
+.roadmap-page {
+    background-color: #F4C240; /* Golden Yellow Background */
+    padding: 40px;
+    text-align: center;
+    overflow: hidden; /* Hide any overflow from animations */
+  }
+  
+  .roadmap-title {
+    font-size: 3rem;
+    color: #FF8C00; /* Dark Orange Text */
+    margin-bottom: 40px;
+    font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+    position: relative;
+    animation: bounce 2s infinite; /* Add some playful bounce to the title */
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .roadmap-timeline {
+    display: flex;
+    flex-direction: column; /* Stack the roadmap items vertically */
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .roadmap-item {
+    background-color: #FBE18A; /* Lighter Shade for the Box */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px; /* Keep it consistent with other pages */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden; /* Hide overflow for animated elements */
+  }
+  
+  .roadmap-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .roadmap-item h2 {
+    font-size: 2rem;
+    color: #FF4500; /* Bright Red */
+    margin-bottom: 10px;
+  }
+  
+  .roadmap-item p {
+    font-size: 1.2rem;
+    color: #000080; /* Dark Navy Text */
+    margin-bottom: 10px;
+  }
+  
+  .roadmap-item p::before {
+    content: '🌮'; /* Add a taco before each bullet point */
+    margin-right: 10px;
+  }
+  

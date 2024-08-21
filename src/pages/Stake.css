@@ -1,0 +1,26 @@
+.stake-page {
+    background-color: #F4C240; /* Golden Yellow Background */
+    padding: 50px 20px;
+    text-align: center;
+    color: #000080; /* Dark Navy Text */
+  }
+  
+  .stake-title {
+    font-size: 3rem;
+    color: #FF8C00; /* Dark Orange Text */
+    margin-bottom: 40px;
+    font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .stake-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FBE18A; /* Lighter Shade for the Box */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  

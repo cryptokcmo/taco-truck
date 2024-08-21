@@ -1,0 +1,56 @@
+.community-page {
+    background-color: #F4C240; /* Golden Yellow Background */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .community-title {
+    font-size: 3rem;
+    color: #FF8C00; /* Dark Orange Text */
+    margin-bottom: 40px;
+    font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+  }
+  
+  .community-menu {
+    display: flex;
+    flex-direction: column; /* Stack the hero boxes vertically */
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .community-item {
+    background-color: #FBE18A; /* Lighter Shade for the Box */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px; /* Make it look like a menu */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .community-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .community-image {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .community-button {
+    background-color: #FF8C00; /* Dark Orange Button */
+    color: #FFFFFF; /* White Text */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .community-button:hover {
+    transform: scale(1.1);
+    background-color: #FF4500; /* Bright Red on Hover */
+  }
+  

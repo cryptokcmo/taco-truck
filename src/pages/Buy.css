@@ -1,0 +1,64 @@
+.buy-page {
+  background-color: #F4C240; /* Golden Yellow Background */
+  padding: 40px;
+  text-align: center;
+}
+
+.buy-title {
+  font-size: 3rem;
+  color: #FF8C00; /* Dark Orange Text */
+  margin-bottom: 40px;
+  font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+}
+
+.taco-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.taco-item {
+  background-color: #FBE18A; /* Lighter Shade for the Box */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.taco-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.taco-icon {
+  font-size: 3rem; /* Adjust the size of the taco emoji */
+  margin-bottom: 20px; /* Space between taco and text */
+}
+
+.buy-button {
+  background-color: #FF8C00; /* Dark Orange Button */
+  color: #FFFFFF; /* White Text */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+  transform: scale(1.1);
+  background-color: #FF4500; /* Bright Red on Hover */
+}
+
+.buy-button.disabled {
+  background-color: #AAAAAA; /* Grey Button for disabled state */
+  cursor: not-allowed;
+}
+
+.coming-soon p {
+  font-weight: bold;
+  color: #FF4500; /* Highlight the "Coming Soon" text */
+}

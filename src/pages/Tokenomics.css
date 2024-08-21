@@ -1,0 +1,55 @@
+.tokenomics-page {
+    background-color: #F4C240; /* Golden Yellow Background */
+    padding: 50px 20px;
+    text-align: center;
+    overflow: hidden; /* Hide any overflow from animations */
+  }
+  
+  .tokenomics-title {
+    font-size: 3rem;
+    color: #FF8C00; /* Dark Orange Text */
+    margin-bottom: 40px;
+    font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tokenomics-content {
+    display: flex;
+    flex-direction: column; /* Stack the boxes vertically */
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .tokenomics-box {
+    background-color: #FBE18A; /* Lighter Shade for the Box */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px; /* Keep it consistent with other pages */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .tokenomics-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tokenomics-box h2 {
+    font-size: 2rem;
+    color: #FF4500; /* Bright Red */
+    margin-bottom: 10px;
+  }
+  
+  .tokenomics-box p {
+    font-size: 1.2rem;
+    color: #000080; /* Dark Navy Text */
+    margin-bottom: 10px;
+  }
+  
+  .tokenomics-box p::before {
+    content: '🌮'; /* Add a taco before each bullet point */
+    margin-right: 10px;
+  }
+  

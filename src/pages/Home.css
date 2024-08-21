@@ -1,0 +1,108 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #F4C240; /* Golden Yellow Background */
+  min-height: 100vh; /* Ensure container fills at least the viewport height */
+  box-sizing: border-box; /* Include padding */
+  justify-content: space-between; /* Pushes footer to the bottom */
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-logo {
+  width: 150px; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: #FF8C00; /* Dark Orange Text */
+  margin-bottom: 10px;
+  font-family: 'Comic Sans MS', cursive; /* Fun and playful font */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  animation: bounce 1.89s infinite; /* Add some playful bounce to the title */
+}
+
+.hero-underline {
+  width: 650px;
+  height: 3.14px;
+  background-color: #FF4500; /* Bright Red */
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1000px; /* Increased max-width to accommodate the new stat */
+  margin-bottom: 50px;
+  gap: 20px; /* Adjust gap for better spacing */
+}
+
+.stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBE18A; /* Lighter Shade for the Box */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-width: 200px; /* Ensure the boxes don't grow too large */
+  width: 100%;
+}
+
+.stat:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.taco-icon {
+  font-size: 2rem; /* Make the taco icon larger */
+  margin-bottom: 10px; /* Space between taco and text */
+}
+
+.stat h2 {
+  font-size: 2rem;
+  color: #FF4500; /* Bright Red */
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1.2rem;
+  color: #000080; /* Dark Navy Text */
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  gap: 30px;
+  margin-bottom: 30px; /* Add space between the buttons and the footer */
+  flex-shrink: 0; /* Ensure the buttons don't shrink */
+}
+
+.link-button {
+  padding: 15px 30px;
+  background-color: #FF8C00; /* Dark Orange */
+  color: #FFFFFF; /* White Text */
+  text-decoration: none;
+  border-radius: 12px;
+  position: relative;
+  transition: transform 0.3s, background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
